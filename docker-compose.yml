@@ -1,0 +1,7 @@
+version: '3.7'
+services:
+  db-api-server:
+    build: .
+    image: db-api-server:1.0
+    ports:
+      - '9999:9999'
